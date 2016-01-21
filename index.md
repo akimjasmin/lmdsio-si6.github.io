@@ -14,3 +14,13 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 ## Cours
 
 * [Guide du développeur PHP](https://www.gitbook.com/book/bpesquet/guide-developpeur-php/) (partie 1)
+
+## Tutoriels
+
+* [Concevez votre site web avec PHP et MySQL](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql)
+
+## Activités
+
+* [Bases du langage PHP](activities/bases-php)
+
+
