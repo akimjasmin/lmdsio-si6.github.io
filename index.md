@@ -24,4 +24,6 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 
 * [Bases du langage PHP](activities/bases-php)
 
+## Projets
 
+* [Gestion de films (version statique)](projects/mymovies-static)
