@@ -18,6 +18,7 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 ## Tutoriels
 
 * [Concevez votre site web avec PHP et MySQL](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql). Votre avancement est à reporter sur [cette feuille de calcul](https://docs.google.com/spreadsheets/d/1O6U1gAde-rsnYRmqTbLuc3RAo4hVpCbwupS1YZilr_s/edit?usp=sharing).
+* [Premiers pas avec le framework Bootstrap](http://prof.bpesquet.fr/tutoriel/premiers-pas-framework-bootstrap/)
 
 ## Activités
 
