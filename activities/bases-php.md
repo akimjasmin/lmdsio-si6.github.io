@@ -10,6 +10,7 @@ Codez ces exercices dans un sous-répertoire `bases-php` de votre répertoire We
 Ecrivez une page PHP `presentation.php` qui affiche votre nom et votre âge. Ces informations doivent être stockées dans des variables. Le titre de la page doit être généré dynamiquement.
 
 ![](../assets/bases-php/presentation.png)
+{:.centered}
 
 ## Exercice 2
 
@@ -39,6 +40,7 @@ Vérifiez vos résultats en intégrant ce code dans une page `mystere.php` puis 
 Ecrivez une page PHP `tva.php` qui déclare une variable `$prixHorsTaxes` dont vous choisirez librement la valeur. La page affiche ensuite le prix TTC correspondant (le taux de TVA sera fixé à 19,6% et stocké dans une variable).
 
 ![](../assets/bases-php/tva.png)
+{:.centered}
 
 Testez votre programme en faisant varier le prix hors taxes.
 
@@ -80,5 +82,6 @@ Voici le code source d'une page `erreurs.php`.
 * Corrigez-la pour qu'elle affiche le résultat suivant.
 
 ![](../assets/bases-php/erreurs.png)
+{:.centered}
 
 * Déplacez la définition des variables dans un fichier `variables.php`.

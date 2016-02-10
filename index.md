@@ -23,6 +23,7 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 ## Activités
 
 * [Bases du langage PHP](activities/bases-php)
+* [Programmer avec PHP](activities/programmer-php)
 
 ## Projets
 
