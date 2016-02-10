@@ -40,6 +40,4 @@ Les images ci-dessous fournissent un exemple de réalisation du projet. La mise 
 ![](../assets/mymovies/mymovies3.png)
 {:.centered}
 
-![](../assets/mymovies/mymovies4.png)
-{:.centered}
 
