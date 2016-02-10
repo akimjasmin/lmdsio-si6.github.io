@@ -9,7 +9,7 @@ Ressources pédagogiques du [lycée La Martinière Duchère](http://lmdsio.fr) d
 
 Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 
-[Présentation du module SI6](presentation) - [Progression suivie pour la classe de B1SIO2](https://trello.com/b/YsYyc51Z/progression-b1sio2) ([vue calendaire](https://trello.com/b/YsYyc51Z/progression-b1sio2/calendar/))
+[Présentation du module SI6](presentation) - [Progression suivie pour la classe de B1SIO2](https://trello.com/b/YsYyc51Z/progression-b1sio2) ([vue calendaire](https://trello.com/b/YsYyc51Z/progression-b1sio2/calendar/)) - [Code source](https://github.com/lmdsio-si6)
 
 ## Cours
 
