@@ -24,6 +24,7 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 
 * [Bases du langage PHP](activities/bases-php)
 * [Programmer avec PHP](activities/programmer-php)
+* [Transmission de données entre pages](activities/transmission-donnees)
 
 ## Projets
 
