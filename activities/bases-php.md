@@ -88,4 +88,4 @@ Voici le code source d'une page `erreurs.php`.
 * 
 ## Solutions des exercices
 
-[Accès aux solutions](https://github.com/lmdsio-si6/bases-php) (authentification nécessaire).
+[Accès aux solutions](https://github.com/lmdsio-si6/bases-php-correction) (authentification nécessaire).
