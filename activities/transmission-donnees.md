@@ -9,12 +9,12 @@ Le résultat obtenu dans le navigateur doit toujours être une page conforme au 
 
 ## Exercice 1
 
-Ecrivez la page `employes.php` affichant une liste de 3 employés avec un lien vers leurs détails. Ce lien doit pointer vers une URL de la forme `employe.php?id=<identifiant>`, le paramètre `<identifiant>` valant 1, 2 ou 3.
+Ecrivez une page `employes.php` affichant une liste de 3 employés avec un lien vers leurs détails. Ce lien doit pointer vers une URL de la forme `employe.php?id=<identifiant>`, le paramètre `<identifiant>` valant 1, 2 ou 3.
 
 ![](../assets/transmission-donnees/employes.png)
 {:.centered}
 
-Ecrivez ensuite la page `employe.php` qui affiche l'identifiant de l'employé reçu en paramètre dans l'URL.
+Ecrivez ensuite une page `employe.php` qui affiche l'identifiant de l'employé reçu en paramètre dans l'URL.
 
 ![](../assets/transmission-donnees/employe-1.png)
 {:.centered}
@@ -33,3 +33,23 @@ Le cas où aucun nombre n'est fourni doit être géré.
 
 ![](../assets/transmission-donnees/employes-bis-2.png)
 {:.centered}
+
+## Exercice 2
+
+Ecrivez une page `bonjour.php` permettant à l'utilisateur de saisir son prénom. Cette saisie est obligatoire. Le clic sur le bouton ^Dire bonjour" envoie vers une page `reponse.php`affichant le message "Bonjour, " suivi du prénom saisi.
+
+![](../assets/transmission-donnees/bonjour-1.png)
+{:.centered}
+
+![](../assets/transmission-donnees/bonjour-2.png)
+{:.centered}
+
+Modifiez ensuite vos pages pour que l'utilisateur puisse choisir un bonjour plus familier ("Salut" au lieu de "Bonjour") sous la forme d'une case à cocher.
+
+![](../assets/transmission-donnees/bonjour-3.png)
+{:.centered}
+
+![](../assets/transmission-donnees/bonjour-4.png)
+{:.centered}
+
+**Bonus** : gérez la saisie et l'affichage dans la même page `bonjour-bis.php`.
