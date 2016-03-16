@@ -36,10 +36,12 @@ Le cas où aucun nombre n'est fourni doit être géré.
 
 ## Exercice 2
 
-Ecrivez une page `bonjour.php` permettant à l'utilisateur de saisir son prénom. Cette saisie est obligatoire. Le clic sur le bouton ^Dire bonjour" envoie vers une page `reponse.php`affichant le message "Bonjour, " suivi du prénom saisi.
+Ecrivez une page `bonjour.php` permettant à l'utilisateur de saisir son prénom. Cette saisie est obligatoire. 
 
 ![](../assets/transmission-donnees/bonjour-1.png)
 {:.centered}
+
+Le clic sur le bouton "Dire bonjour" envoie vers une page `reponse.php` affichant le message "Bonjour, " suivi du prénom saisi.
 
 ![](../assets/transmission-donnees/bonjour-2.png)
 {:.centered}
@@ -52,4 +54,32 @@ Modifiez ensuite vos pages pour que l'utilisateur puisse choisir un bonjour plus
 ![](../assets/transmission-donnees/bonjour-4.png)
 {:.centered}
 
+Enfin, ajoutez une formule de politesse grâce à des boutons radio.
+
+![](../assets/transmission-donnees/bonjour-5.png)
+{:.centered}
+
+![](../assets/transmission-donnees/bonjour-6.png)
+{:.centered}
+
 **Bonus** : gérez la saisie et l'affichage dans la même page `bonjour-bis.php`.
+
+## Exercice 3
+
+Ecrivez une page `service.php qui permet de sélectionner un service dans une liste déroulante. Les services possibles sont :
+
+* "Administration" (code : s01)
+* "Commercial" (code: s02)
+* "Emballage" (code : s03)
+* "Fabrication" (code : s04)
+
+![](../assets/transmission-donnees/service-1.png)
+{:.centered}
+
+Le clic sur le bouton ^Sélectionner" envoie vers une page `service_post.php` qui affiche le code du service choisi.
+
+![](../assets/transmission-donnees/service-2.png)
+{:.centered}
+
+
+
