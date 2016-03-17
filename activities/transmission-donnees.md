@@ -81,5 +81,6 @@ Le clic sur le bouton ^Sélectionner" envoie vers une page `service_post.php` qu
 ![](../assets/transmission-donnees/service-2.png)
 {:.centered}
 
+## Exercice 4
 
-
+Reprenez les exercices précédents pour les sécuriser contre l'injection de code JavaScript.
