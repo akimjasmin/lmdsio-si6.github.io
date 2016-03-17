@@ -36,7 +36,7 @@ Le cas où aucun nombre n'est fourni doit être géré.
 
 ## Exercice 2
 
-Ecrivez une page `bonjour.php` permettant à l'utilisateur de saisir son prénom. Cette saisie est obligatoire. 
+Ecrivez une page `bonjour.php` permettant à l'utilisateur de saisir son prénom. Cette saisie est obligatoire.
 
 ![](../assets/transmission-donnees/bonjour-1.png)
 {:.centered}
@@ -82,5 +82,15 @@ Le clic sur le bouton "Sélectionner" envoie vers une page `service_post.php` qu
 {:.centered}
 
 ## Exercice 4
+
+Réalisez le formulaire ci-dessous dans la page `machineCafe.php`, avec récupération des valeurs et affichage dans la même page. Les boissons possibles sont : "Café", "Thé", "Chocolat" et "Café crème".
+
+![](../assets/transmission-donnees/machineCafe-1.png)
+{:.centered}
+
+![](../assets/transmission-donnees/machineCafe-2.png)
+{:.centered}
+
+## Exercice 5
 
 Reprenez les exercices précédents pour les sécuriser contre l'injection de code JavaScript.
