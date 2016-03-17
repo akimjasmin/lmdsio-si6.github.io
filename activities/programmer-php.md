@@ -58,6 +58,3 @@ Utilisez-le dans une page PHP `clients.php` pour afficher le résultat ci-dessou
 ![](../assets/programmer-php/clients.png)
 {:.centered}
 
-## Solutions des exercices
-
-[Accès aux solutions](https://github.com/lmdsio-si6/programmer-php-correction) (authentification nécessaire).

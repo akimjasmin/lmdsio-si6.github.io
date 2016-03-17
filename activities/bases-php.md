@@ -79,13 +79,10 @@ Voici le code source d'une page `erreurs.php`.
 </html>
 ~~~
 
-* Corrigez-la pour qu'elle affiche le résultat suivant.
+Corrigez-la pour qu'elle affiche le résultat suivant.
 
 ![](../assets/bases-php/erreurs.png)
 {:.centered}
 
-* Déplacez la définition des variables dans un fichier `variables.php`.
-* 
-## Solutions des exercices
+Déplacez la définition des variables dans un fichier `variables.php`.
 
-[Accès aux solutions](https://github.com/lmdsio-si6/bases-php-correction) (authentification nécessaire).

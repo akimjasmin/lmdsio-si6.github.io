@@ -5,7 +5,7 @@ title: Transmission de données entre pages
 
 Vous réaliserez les exercices dans un dossier nommé `transmission-donnees`.
 
-Le résultat obtenu dans le navigateur doit toujours être une page conforme au standard HTML5 (balises <html>, <head> et <body> présentes et correctement imbriquées).
+Le résultat obtenu dans le navigateur doit toujours être une page conforme au standard HTML5 (balises `<html>`, `<head>` et `<body>` présentes et correctement imbriquées).
 
 ## Exercice 1
 
@@ -66,7 +66,7 @@ Enfin, ajoutez une formule de politesse grâce à des boutons radio.
 
 ## Exercice 3
 
-Ecrivez une page `service.php qui permet de sélectionner un service dans une liste déroulante. Les services possibles sont :
+Ecrivez une page `service.php` qui permet de sélectionner un service dans une liste déroulante. Les services possibles sont :
 
 * "Administration" (code : s01)
 * "Commercial" (code: s02)
@@ -76,7 +76,7 @@ Ecrivez une page `service.php qui permet de sélectionner un service dans une li
 ![](../assets/transmission-donnees/service-1.png)
 {:.centered}
 
-Le clic sur le bouton ^Sélectionner" envoie vers une page `service_post.php` qui affiche le code du service choisi.
+Le clic sur le bouton "Sélectionner" envoie vers une page `service_post.php` qui affiche le code du service choisi.
 
 ![](../assets/transmission-donnees/service-2.png)
 {:.centered}
