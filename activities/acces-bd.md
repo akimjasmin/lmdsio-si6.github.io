@@ -86,6 +86,14 @@ Ecrivez une page PHP `tableauEmployes.php` qui affiche la liste de tous les empl
 
 ## Exercice 3
 
+Modifiez les exercices précédents afin de centraliser la connexion à la BD dans une fonction `getBdd` définie dans un fichier `fonctions.php`.
+
+Si ce n'est pas déjà le cas, sécurisez vos pages contre les injections JavaScript à l'aide de la fonction `escape`.
+
+Tous les exercices suivants doivent utiliser ces fonctions.
+
+## Exercice 4
+
 Ecrivez une page PHP `service.php` qui permet de sélectionner un service dans une liste déroulante. Les différents services sont extraits de la base de données.
 
 ![](../assets/acces-bd/service.png)
@@ -95,3 +103,13 @@ Ecrivez ensuite une page PHP `employesService.php` qui récupère le service sé
 
 ![](../assets/acces-bd/employesService.png)
 {:.centered}
+
+## Exercice 5
+
+Ecrivez une page PHP `ajoutService.php` permettant de saisir un nouveau service, ainsi que la page `ajoutService_post.php` qui insère le nouveau service dans la base.
+
+## Exercice 6
+
+Ecrivez une page PHP `ajoutEmploye.php` qui permet de saisir les données d'un nouvel employé, y compris son service. Tous les champs sont obligatoires.
+
+Ecrivez ensuite la page `ajoutEmploye_post.php` qui insère le nouvel employé dans la base.
