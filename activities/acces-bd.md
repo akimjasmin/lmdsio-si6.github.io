@@ -106,10 +106,24 @@ Ecrivez ensuite une page PHP `employesService.php` qui récupère le service sé
 
 ## Exercice 5
 
-Ecrivez une page PHP `ajoutService.php` permettant de saisir un nouveau service, ainsi que la page `ajoutService_post.php` qui insère le nouveau service dans la base.
+Ecrivez une page PHP `ajoutService.php` permettant d'afficher les services existants et de saisir un nouveau service.
+
+![](../assets/acces-bd/ajoutService.png)
+{:.centered}
+
+La page insère le nouveau service dans la base lorsque l'utilisateur valide sa saisie.
+
+![](../assets/acces-bd/ajoutService2.png)
+{:.centered}
 
 ## Exercice 6
 
-Ecrivez une page PHP `ajoutEmploye.php` qui permet de saisir les données d'un nouvel employé, y compris son service. Tous les champs sont obligatoires.
+Ecrivez une page PHP `ajoutEmploye.php` qui permet de saisir les données d'un nouvel employé, y compris son service. Tous les champs sont obligatoires. La liste des services provient de la base de données.
 
-Ecrivez ensuite la page `ajoutEmploye_post.php` qui insère le nouvel employé dans la base.
+![](../assets/acces-bd/ajoutEmploye.png)
+{:.centered}
+
+La page insère le nouvel employé dans la base lorsque l'utilisateur valide sa saisie.
+
+![](../assets/acces-bd/ajoutEmploye2.png)
+{:.centered}
