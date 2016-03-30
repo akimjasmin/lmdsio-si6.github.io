@@ -88,7 +88,7 @@ Ecrivez une page PHP `tableauEmployes.php` qui affiche la liste de tous les empl
 
 Modifiez les exercices précédents afin de centraliser la connexion à la BD dans une fonction `getBdd` définie dans un fichier `fonctions.php`.
 
-Si ce n'est pas déjà le cas, sécurisez vos pages contre les injections JavaScript à l'aide de la fonction `escape`.
+Si ce n'est pas déjà le cas, sécurisez vos pages contre les injections JavaScript à l'aide de la fonction `escape` définie elle aussi dans `fonctions.php` (voir chapitre précédent).
 
 Tous les exercices suivants doivent utiliser ces fonctions.
 
