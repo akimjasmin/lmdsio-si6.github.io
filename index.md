@@ -26,7 +26,9 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 * [Programmer avec PHP](activities/programmer-php)
 * [Transmission de données entre pages](activities/transmission-donnees)
 * [Accès à une base de données](activities/acces-bd)
+* [Utilisation des sessions en PHP](activities/sessions)
 
 ## Projets
 
 * [Gestion de films (version statique)](projects/mymovies-static)
+* [Gestion de films (version dynamique)](projects/mymovies)

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Projet - Gestion de films (version dynamique)
-published: false
 ---
 
 ## Exigences métier
 
-L'objectif de ce projet est de créer une application de gestion de films. Les exigences techniques sont les mêmes que celle de la [version statique de l'application](mymovies-static), avec les exigences supplémentaires suivantes : 
+L'objectif de ce projet est de créer une application de gestion de films. Les exigences techniques sont les mêmes que celle de la [version statique de l'application](mymovies-static), avec les exigences supplémentaires suivantes :
 
 * Les données de l'application sont stockées dans une base de données.
 * Le clic sur le titre d'un film permet d'accéder à ses informations.
@@ -40,12 +39,3 @@ Du point de vue technique, on peut envisager d'utiliser un framework plutôt que
 ## Exemple de résultat
 
 Un exemple d'application est [disponible en ligne](https://mymovies-correction.herokuapp.com/index.php).
-
-## Remise du projet
-
-Le code source du projet est publié sur GitHub dans le même dépôt que la version statique.
-
-En bonus, le projet peut être déployé sur [OpenShift](https://openshift.com) ([exemple d'utilisation d'OpenShift](../activities/deployer-site-php-openshift)). Dans ce cas, l'URL de déploiement doit être précisée sur la page GitHub du projet.
-
-![](../assets/mymovies/github-url.jpeg)
-{:.centered}
