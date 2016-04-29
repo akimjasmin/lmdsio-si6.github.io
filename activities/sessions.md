@@ -101,7 +101,7 @@ if (isset($_POST['login']) && isset($_POST['mdp'])) {
     <h1>Résultat de l'authentification</h1>
     <?php
     if (isset($authOK)) {
-        echo "Vous avez été reconnu(e) en tant que $login<br />";
+        echo "<p>Vous avez été reconnu(e) en tant que " . escape($login) . "</p>";
         echo '<a href="index.php">Poursuivre vers la page d\'accueil</a>';
     }
     else { ?>
@@ -117,6 +117,35 @@ if (isset($_POST['login']) && isset($_POST['mdp'])) {
 
 ![](../assets/sessions/sessions-4.png)
 {:.centered}
+
+La page `fonctions.php` contient les fonctions utilisées par les autres pages.
+
+~~~php
+<?php
+
+/**
+ * Nettoie une valeur insérée dans une page HTML
+ * Doit être utilisée à chaque insertion de données dynamique dans une page HTML
+ * Permet d'éviter les problèmes d'exécution de code indésirable (XSS)
+ * @param string $valeur Valeur à nettoyer
+ * @return string Valeur nettoyée
+ */
+function escape($valeur)
+{
+    // Convertit les caractères spéciaux en entités HTML
+    return htmlspecialchars($valeur, ENT_QUOTES, 'UTF-8', false);
+}
+
+/**
+ * Gère la connexion à la base de données
+ * @return PDO Objet de connexion à la BD
+ */
+function getBdd() {
+    return new PDO("mysql:host=localhost;dbname=monsite;charset=utf8",
+        "monsite_util", "secret",
+        array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+}
+~~~
 
 Enfin, la page d'accueil `index.php` est personnalisée en fonction de la connexion ou non d'un utilisateur.
 
@@ -140,7 +169,7 @@ if (isset($_SESSION['login']) && isset($_SESSION['mdp'])) {
     <body>
         <?php
         if (isset($login) && isset($mdp)) {
-            echo "Bienvenue, $login. Votre mot de passe est $mdp";
+            echo "Bienvenue, " . escape($login) . ". Votre mot de passe est " . escape($mdp) . ".";
             echo "<h1>Accueil du site</h1>";
         }
         else { ?>
